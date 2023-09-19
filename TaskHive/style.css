@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Croissant+One&display=swap');
+
+body {
+  font-family: Arial, sans-serif;
+  color: white;
+  background-color: #000000;
+}
+
+.container {
+ 
+  display: flex;
+  align-items: center;
+ justify-content: center;
+ flex-direction: column;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h1 {
+  color: #C0C0C0;
+  font-family: 'Croissant One', cursive;
+  letter-spacing: 5px;
+  font-size: 70px;
+}
+
+.search-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 50px;
+  }
+
+  #search-btn {
+    background-color:  #3d5a80;
+    color: #fff;
+    padding: 10px 20px;
+    height: 77px;
+    width: 100px;
+    cursor: pointer;
+
+  }
+
+input[type="text"] {
+  width: 500px;
+  padding:2rem 10px;
+  margin-right: 10px;
+  text-align: center;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #3d5a80;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  margin: 7px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  border: none;
+  display: flex;
+  align-items: center;
+ justify-content: center;
+ flex-wrap: wrap;
+  flex-basis: 39%;
+}
+
+
+li {
+  padding: 10px;
+  margin: 20px;
+ 
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #ffa500;
+  width: 250px;
+  height: 270px;
+  background-color: #ffa500;
+}
+
+.completed {
+  color: black;
+}

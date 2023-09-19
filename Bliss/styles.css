@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Mooli&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Twinkle+Star&display=swap');
+
+/* Reset some default browser styles */
+body,
+h1,
+h2,
+p,
+ul,
+li,
+a,
+input,
+button {
+  margin: 0;
+  padding: 0;
+  border: none;
+  font-family: 'Mooli', sans-serif;
+}
+
+/* Apply a background color to the body */
+
+
+/* Style the container */
+.container {
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+  background-color: black;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+}
+
+
+
+/* Style the h1 */
+h1 {
+    margin-top: 20px;
+  font-size: 46px;
+  margin-bottom: 40px;
+  letter-spacing: 30px;
+  font-family: 'Twinkle Star', cursive;
+  color: #FFD700;
+}
+
+/* Style the search container */
+.search-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 100px;
+}
+
+/* Style the movie name input */
+#movie-name {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #ccc;
+  padding: 1.4rem 20px;
+  max-width: 50%;
+  height: 2rem;
+}
+
+/* Style the search button */
+#search-btn {
+  background-color: #B22222;
+  color: #fff;
+  padding: 10px 20px;
+
+  cursor: pointer;
+}
+
+/* Style the search button icon */
+#search-btn i {
+  padding: 1.4rem;
+}
+
+/* Style the result container */
+#result {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+/* Style the movies container */
+#movies {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  justify-content: center;
+  flex-basis: 80%;
+}
+
+/* Style individual movie items */
+.movie {
+  width: 100px;
+  padding: 10px;
+  margin: 10px;
+  text-align: center;
+  background-color: #FFFAF0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  flex-basis: 20%;
+  flex-wrap: wrap;
+}
+
+/* Style movie titles */
+.movie h2 {
+  font-size: 16px;
+  margin: 2px 0;
+}
+
+/* Style movie posters */
+.movie img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Style the result container */
+#result {
+  display: none;
+  text-align: center;
+  margin-top: 20px;
+  color: white;
+}
+
+
+/* Style the movie details */
+.act {
+  margin-top: 15px;
+  font-size: 16px;
+}
+
+.act span {
+  font-weight: 900;
+  font-size: 20px;
+}
+
+/* Style the "Read" buttons in the movie list */
+.movie button {
+  background-color: #B22222;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+/* Style the "Read" button on hover */
+.movie button:hover {
+  background-color: #0056b3;
+}
+
+/* Clearfix for movie list container */
+#movies::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+.footer-bottom {
+    background-color: #222; /* Background color for the footer bottom */
+    padding: 10px 0;
+    text-align: center;
+    font-size: 14px;
+    color: #fff;
+}
+
+.footer-bottom span {
+  color: #FFD700;
+  letter-spacing: 2px;
+}
