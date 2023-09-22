@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+/* Global styles */
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+   background-color: #a6bce9;
+}
+
+header {
+    background-image: url('https://img.freepik.com/free-vector/gradient-futuristic-background-with-connection-concept_23-2149104857.jpg?w=900&t=st=1695208359~exp=1695208959~hmac=58f7a6444a16c090ed96c0d4201604345d70edf65b074ce26eb41abff1b7ebf5');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color:white;
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h1 {
+    margin-left: 10%;
+    letter-spacing: 5px;
+    font-family: 'Satisfy', cursive;
+    font-size: 40px;
+}
+
+h1 img {
+    height: 40px;
+}
+
+button#openModal {
+    background-color: #008CBA;
+    color: white;
+    border: none;
+    font-size: 24px;
+    padding: 10px 20px;
+    border-radius: 50%;
+    cursor: pointer;
+    margin-right: 10%;
+}
+
+button#openModal:hover {
+    background-color: #0077a8;
+}
+
+/* Blog list styles */
+#blogList {
+    margin: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-basis: 30%;
+}
+
+.blog-post {
+    background-image: url('https://img.freepik.com/free-vector/white-abstract-background_23-2148810113.jpg?w=900&t=st=1695208173~exp=1695208773~hmac=ef09a013f3c6d2efb530ee1d80dcc2476bf4812d996cf1d68c7d29cd87ec0e61');
+    padding: 20px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    width: 50%;
+   
+}
+
+.blog-post h2 {
+    color: #333;
+    font-size: 24px;
+}
+
+/* Modal styles */
+.modal {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.modal-content {
+    background-color: white;
+    margin: 7% auto;
+    padding: 20px;
+    width: 40%;
+
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    position: relative;
+}
+
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.close:hover {
+    color: #333;
+}
+
+/* Form styles */
+form {
+    margin-top: 20px;
+}
+
+img {
+    height: 200px;
+    width: 300px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input[type="text"] {
+    width: 95%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+textarea {
+    width: 90%;
+    padding: 20px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+
+button[type="submit"] {
+    background-color: #008CBA;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+}
+
+button[type="submit"]:hover {
+    background-color: #0077a8;
+}
+

@@ -1,0 +1,44 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Mooli&display=swap');
+
+
+
+*{
+    background-image: url('https://img.freepik.com/free-vector/halftone-background-with-circles_23-2148907689.jpg?w=360&t=st=1695216311~exp=1695216911~hmac=94332c5bf11df285eb66b1e35cde387215eac13b44f2c40aab24e913cbfa8925');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    font-family: 'Mooli', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+h1 {
+    margin-top: 40px;
+    margin-bottom: 50px;
+    font-size: 3.2rem;
+    background-color: transparent;
+    color: rgb(237, 94, 118);
+    width: 50%;
+}
+
+strong {
+    color:rgb(138, 138, 250);
+    font-size: 2rem;
+    background-color: transparent;
+}
+
+img {
+    height: 500px;
+    width:60%;
+    text-align: center;
+    background-color: transparent;
+}
+
+p {
+    font-size: 20px;
+    background-color: transparent;
+}
